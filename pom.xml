@@ -10,7 +10,7 @@
 	</parent>
 
 	<groupId>io.jenkins.plugins</groupId>
-	<artifactId>console-back-to-top</artifactId>
+	<artifactId>console-back-to-top-button</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>hpi</packaging>
 	<properties>
