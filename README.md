@@ -18,4 +18,4 @@ Jenkins
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
-![Example Image](https://raw.githubusercontent.com/bnova-stefan/jenkins-console-navigation-plugin/develop/images/example.png)
+![Example Image](https://raw.githubusercontent.com/b-nova/jenkins-console-navigation-plugin/develop/images/example.png)
