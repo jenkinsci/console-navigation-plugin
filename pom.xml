@@ -10,7 +10,7 @@
 	</parent>
 
 	<groupId>io.jenkins.plugins</groupId>
-	<artifactId>console-navigation-button</artifactId>
+	<artifactId>console-navigation</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>hpi</packaging>
 	<properties>
