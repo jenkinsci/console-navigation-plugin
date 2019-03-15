@@ -1,10 +1,10 @@
-# Console Back-To-Top Button
+# Console Navigation
 
-Save many time when scroll to top in your console log files
+Save many time when navigate through the console 
 
 ## Getting Started
 
-Search for console-back-to-top-button in the jenkins plugin repository and install it. That's it!
+Search for console-navigation-plugin in the jenkins plugin repository and install it. That's it!
 
 ### Prerequisites
 
@@ -18,4 +18,4 @@ Jenkins
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
-![Example Image](https://raw.githubusercontent.com/bnova-stefan/jenkins-console-back-to-top-button/develop/images/example.png)
+![Example Image](https://raw.githubusercontent.com/bnova-stefan/jenkins-console-navigation-plugin/develop/images/example.png)
