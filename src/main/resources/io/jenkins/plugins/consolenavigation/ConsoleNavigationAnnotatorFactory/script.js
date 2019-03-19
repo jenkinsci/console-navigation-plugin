@@ -36,8 +36,6 @@
 						scrollToTop();
 					} else if (event.which === 8364 && event.altKey) {
 						scrollToBottom();
-					} else if (event.which === 8776 && event.altKey) {
-						scrollToError();
 					}
 				});
 
@@ -63,32 +61,6 @@
 					jQuery('body,html').animate({
 						scrollTop: position
 					}, 400);
-				}
-
-				var positions = [];
-
-				function scrollToError() {
-					var consoleOutput = jQuery('.console-output');
-					var text = consoleOutput.html();
-					var newText = text.replace(/ERROR/g, '<span class="get-position-of-it"></span>');
-					consoleOutput.html(newText); //Set wrapper
-					var foundErrorElements = jQuery(".get-position-of-it");
-					if (foundErrorElements.length > 1) {
-						for (var i = 0; i < foundErrorElements.length; i++) {
-							var elem = foundErrorElements[i];
-							var position = elem.offsetTop;
-							if (!positions.includes(position)) {
-								positions.push(position);
-							}
-						}
-					}
-
-					consoleOutput.html(text); //Place back
-
-					if (positions.length >= 1) {
-						scrollTo(positions[0]);
-						positions.pop();
-					}
 				}
 			});
 		}
