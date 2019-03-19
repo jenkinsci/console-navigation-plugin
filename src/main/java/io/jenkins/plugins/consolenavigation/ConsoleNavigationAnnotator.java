@@ -7,7 +7,7 @@ import javax.annotation.CheckForNull;
 import javax.annotation.Nonnull;
 
 /**
- * @author Stefan Welsch<stefan.welsch@b-nova.com>
+ * @author stefan.welsch@b-nova.com
  */
 public class ConsoleNavigationAnnotator extends ConsoleAnnotator {
 
