@@ -1,4 +1,4 @@
-package io.jenkins.plugins.consolebacktotopbutton;
+package io.jenkins.plugins.consolenavigation;
 
 import hudson.MarkupText;
 import hudson.console.ConsoleAnnotator;
@@ -9,7 +9,7 @@ import javax.annotation.Nonnull;
 /**
  * @author Stefan Welsch<stefan.welsch@b-nova.com>
  */
-public class ConsoleBackToTopButtonAnnotator extends ConsoleAnnotator {
+public class ConsoleNavigationAnnotator extends ConsoleAnnotator {
 
 	@CheckForNull
 	@Override
